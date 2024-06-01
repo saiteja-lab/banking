@@ -70,7 +70,7 @@ public class bankManagement { // these class provides all
                         System.out.println("Hallo, " + rs.getString("cname"));
                         System.out.println("1)Transfer Money");
                         System.out.println("2)View Balance");
-                        System.out.println("5)LogOut");
+                        System.out.println("3)LogOut");
 
                         System.out.print("Enter Choice:");
                         ch = Integer.parseInt(sc.readLine());
@@ -91,7 +91,7 @@ public class bankManagement { // these class provides all
 
                             bankManagement.getBalance(senderAc);
                         }
-                        else if (ch == 5) {
+                        else if (ch == 3) {
                             break;
                         }
                         else {
